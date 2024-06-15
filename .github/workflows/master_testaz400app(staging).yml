@@ -73,6 +73,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'staging (testaz400app/staging)'
+          app-name: 'testAz400App'
           slot-name: 'testaz400app-staging'
           
