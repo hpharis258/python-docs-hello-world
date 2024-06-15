@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - testaz400app
 on:
   push:
     branches:
-      - master
+      - test
   workflow_dispatch:
 
 jobs:
